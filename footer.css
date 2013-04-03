@@ -59,6 +59,7 @@ p {
 	text-shadow: 0px 1px 2px #C49106;
 	border-top: 1px solid #F1DF0F;
 	color: #FFF;
+	margin-top: 15px;
 }
 .connect hr {
 	margin-top: 7px;
@@ -69,7 +70,7 @@ p {
 	margin-right: 65px;
 }
 .copyright hr {
-	margin-top: 66px;
+	margin-top: 51px;
 	margin-bottom: 7px;
 	height: 1px;
 	border: 0px;
@@ -110,7 +111,8 @@ span {
 	margin-bottom: 20px;
 }
 #foot {
-	/*width: 1120px;*/
+	width: 100%;
+	min-width: 1120px;
 	position: absolute;
 	right: 0;
 	left: 0;
