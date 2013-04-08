@@ -1,0 +1,396 @@
+/*beginning*/
+
+body {
+	margin:0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.start {
+	width: 100%;
+	min-width: 1120px;
+	background-image: url(images/blackStrip.png);
+	background-repeat: repeat;
+	height: 62px;
+}
+
+.wrap {
+	width: 1120px;
+	margin: 0 auto;
+}
+
+.nav {
+	width: 610px;
+	float: left;
+}
+.account ul {
+	float: left;
+}
+
+.account {
+	width: 400px;
+	float: right;
+}
+
+.account li {
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: lighter;
+	float: left;
+	padding-right: 4px;
+	margin-top: 6px;
+}
+.logo {
+	margin-top: -8px;
+}
+
+.triangle {
+	margin-top: -22px;
+}
+
+.yourImage {
+	margin-top: -21px;
+}
+
+.nav ul {
+	float: left;
+}
+
+.nav li {
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: lighter;
+	float: left;
+	padding-right: 50px;
+}
+
+.nav li:hover {
+	color: yellow;
+}
+
+ul li {
+	list-style-type: none;
+	margin-top: 6px;
+}
+.tour {
+	font-size: 30px;
+	color: #444;
+	float: left;
+	padding-top: 16px;
+	padding-left: 48px;
+	font-weight: lighter;
+}
+
+
+/*belly*/
+
+.belly {
+	width: 100%;
+	min-width: 1120px;
+	background-color: #f1f0ec;
+	box-shadow: inset 0px 2px 3px 0px #d9d9d9, 0px 0px 2px 2px #d9d9d9;
+	height: 500px;
+	margin-top: 82px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.mobster {
+	width: 620px;
+	padding-right: 40px;
+	float: left;
+	padding-left: 46px;
+}
+
+.mobbers {
+	margin-top: 15px;
+	width: 151px;
+	background-color: #D0CDC8;
+	float: left;
+	font-size: 66px;
+	color: #FFF;
+	font-weight: lighter;
+	text-align: center;
+	padding-top: 25px;
+	text-shadow: 0px 1px 2px #444;
+}
+.caption {
+	background-color: #B5AFA3;
+	height: 26px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	color: #444;
+	padding-top: 7px;
+	text-shadow: 0px 1px 2px #FFF;
+	margin-top: 17px;
+}
+
+.mobbersneed {
+	margin-top: 15px;
+	width: 151px;
+	background-color: #D0CDC8;
+	float: right;
+	font-size: 66px;
+	color: #FFF;
+	font-weight: lighter;
+	text-align: center;
+	padding-top: 25px;
+	text-shadow: 0px 1px 2px #444;
+	margin-left: 10px;
+}
+
+
+.second {
+	width: 322px;
+	display: inline-block;
+}
+
+.ribbon {
+	background-color: #b5afa3;
+	padding-left: 20px;
+	position: relative;
+	height: 38px;
+}
+
+.ribbon:after {
+	position: absolute;
+	z-index: 1;
+	right: 0px;
+	top: 0px;
+	border-top: 19px solid transparent;
+	border-left: 20px solid transparent;
+	border-bottom: 19px solid transparent;
+	border-right: 12px solid #F1F0EC;
+	width: 0;
+	height: 0;
+	content: " ";
+}
+
+.ribbon p {
+	font-size: 17px;
+	line-height: 3px;
+	color: #fff;
+	font-weight: lighter;
+	display: inline-block;
+	padding-left: 7px;
+	padding-top: 1px;
+}
+
+.clock {
+	margin-top: 7px;
+	vertical-align: top;
+}
+.mobster p {
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 13px;
+	color: #666666;
+	padding-left: 23px;
+	padding-right: 25px;
+	margin-top: -7px;
+	margin-bottom: 15px;
+}
+
+.sentence p {
+	background-color: #d0cdc8;
+	padding-top: 28px;
+	padding-bottom: 18px;
+	padding-left: 28px;
+	padding-right: 28px;
+	font-size: 17px;
+	line-height: 22px;
+	font-weight: normal;
+	color: #444;
+	font-style: italic;
+	margin-top: -22px;
+	z-index: 4;
+}
+
+/*ribbon info*/
+.mustardribbon {
+	width: 140px;
+	margin-top: -24px;
+	z-index: 5;
+	margin-left: -7px;
+}
+
+.ribbonmessage {
+	background-color: #f8ce00;
+	position: relative;
+	height: 34px;
+	border-bottom: 1px solid #C9BA12;
+}
+
+.ribbonmessage:after {
+	position: absolute;
+	z-index: 1;
+	right: 132px;
+	top: 15px;
+	border-top: 19px solid transparent;
+	border-left: 20px solid transparent;
+	border-bottom: 19px solid transparent;
+	border-right: 8px solid #f8ce00;
+	width: 0;
+	height: 0;
+	content: " ";
+}
+
+.ribbonmessage p {
+	font-size: 12px;
+	color: #fff;
+	font-weight: bolder;
+	padding-top: 10px;
+}
+/*end ribbon info*/
+
+.join {
+	width: 264px;
+	border: 1px solid #887306;
+	background-color: #FCFC83;
+	background: linear-gradient(to bottom, #F9E04D 0%,#E0B702 87%);
+	text-align: center;
+	font-size: 22px;
+	font-weight: lighter;
+	border-radius: 6px;
+	padding: 18px 28px;
+	box-shadow: inset 0px 1px 0px 0px #FFECB6, 0 1px 3px #777570;
+	text-shadow: 0px 1px 2px #C49106;
+	border-top: 1px solid #F1DF0F;
+	color: #FFF;
+	height: 27px;
+	clear: both;
+	margin-top: 20px;
+}
+
+.join:hover {
+	background: #333;
+	border-top: 1px solid #888;
+	border: 1px solid #222;
+}
+
+.rosette p {
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: -56px;
+	margin-left: 52px;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bolder;
+}
+
+.rosette span {
+	padding-left: 10px;
+	margin-left: -8px;
+	font-size: 12px;
+	color: #666;
+	font-weight: normal;
+}
+
+.rosepanel {
+	float: left;
+	height: 72px;
+	background-color: #ffffff;
+	width:308px;
+	margin-left: 6px;
+	border-left: 1px solid #888;
+	border-right: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-radius: 0 0 6px 6px;
+	box-shadow: inset 0px 2px 4px 0px #888;
+}
+.goldrosette {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 6px;
+}
+
+.secondsentence {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 16px;
+	color: #666666;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+	text-align: center;
+	padding-top: 5px;
+}
+h3 {
+	font-size: 22px;
+	color: #444;
+	font-weight: bolder;
+}
+
+
+
+/*third section are*/
+
+.othermob {
+	padding-top: 17px;
+	margin-left: 48px;
+	width: 1120px;
+}
+
+.imageblock {
+	width: 304px;
+	display: inline-block;
+	padding-right: 24px;
+	vertical-align: top;
+}
+
+.imageblock:last-child {
+	padding-right: 0px;
+}
+
+.comment {
+	width: 200px;
+	display: inline-block;
+}
+
+.commentbold {
+	 font-weight: bolder;
+	 font-size: 15px;
+}
+
+.commentsmall {
+	font-weight: lighter;
+	font-size:10px;
+	margin-top: -10px;
+}
+
+.time {
+	width: 96px;
+	text-align: right;
+	font-size: 10px;
+	font-weight: lighter;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

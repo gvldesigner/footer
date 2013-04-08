@@ -1,0 +1,424 @@
+/*beginning*/
+
+body {
+	margin:0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.start {
+	width: 100%;
+	min-width: 942px;
+	background-image: url(images/blackStrip.png);
+	background-repeat: repeat;
+	height: 62px;
+}
+
+.wrap {
+	width: 942px;
+	margin: 0 auto;
+}
+
+.nav {
+	width: 610px;
+	float: left;
+}
+.account ul {
+	float: left;
+}
+
+.account {
+	width: 400px;
+	float: right;
+}
+
+.signout li {
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: lighter;
+	display: inline-block;
+	padding-right: 4px;
+	margin-top: 22px;
+	margin-left: 265px;
+}
+.logo {
+	margin-top: -8px;
+}
+
+.nav ul {
+	float: left;
+	padding-left: 0px;
+}
+
+.nav li {
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: lighter;
+	float: left;
+	padding-right: 50px;
+}
+
+.nav li:hover {
+	color: yellow;
+}
+
+ul li {
+	list-style-type: none;
+	margin-top: 6px;
+}
+
+/*tabs*/
+
+.tabs {
+	margin-top: 39px;
+}	
+
+.anabtns {
+	width: 163px;
+	height: 34px;
+	display: inline-block;
+	border-radius: 6px 6px 0 0;
+	background-color: #fff;
+	border-top: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
+	padding-top: 14px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 8px;
+	text-align: center;
+	box-shadow: inset 0px 1px 2px 0px #d9d9d9;
+	font-size: 17px;
+	font-weight: normal;
+	color: #777;
+}
+.tab-data {
+	display: none;
+	padding-top: 20px; 
+}
+
+.tab-data.active {
+	display: block;
+}
+
+.anabtns.active {
+	background-color: #F1F0EC;
+	border-bottom: 5px solid #F1F0EC;
+	z-index: 2;
+	top: 0px;
+	position: relative;
+	margin-bottom: -5px;		
+}
+
+.back {
+	width: 84px;
+	height: 32px;
+	display: inline-block;
+	border-radius: 6px;
+	background-color: #fff;
+	border: 1px solid #b5b4b2;
+	
+	padding-top: 8px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 8px;
+	
+	text-align: center;
+	font-size: 17px;
+	font-weight: normal;
+	color: #1A93cc;
+
+}
+.back span {
+	color: #777;
+	font-size: 19px;
+}
+
+.butn {
+	display: inline-block;
+	margin-right: 8px;
+}
+.headliner {
+	display: inline-block;
+	padding-right: 102px;
+}
+
+.circles {
+	display: inline-block;
+	margin-left: 160px;
+}
+
+.circles ul {
+	display: inline-block;
+}
+
+.circles li {
+	padding-right: 4px;
+	display: inline-block;
+}
+.circles:last-child {
+	padding-right: 0px;
+}
+
+ul li {
+	list-style-type: none;
+}
+/*guts*/
+
+.guts {
+	width: 100%;
+	min-width: 942px;
+	background-color: #f1f0ec;
+	box-shadow: inset 0px 2px 2px 0px #d9d9d9, 0px 0px 2px 2px #d9d9d9;
+	height: 500px;
+	margin-top: 2px;
+	padding-bottom: 30px;
+}
+
+
+h4 {
+	font-size: 22px;
+	color: #444;
+	font-weight: normal;
+}
+
+h5 {
+	font-size: 22px;
+	color: #444;
+	font-weight: normal;
+}
+/*analytics*/
+
+
+.darkshade {
+	width: 942px;
+	height:34px;
+	display: inline-block;
+	background-color: #e3e2de;
+}
+
+.noshade {
+	height:34px;
+	display: inline-block;
+
+}
+
+.tabone {
+	padding-left: 10px;
+	text-align: right;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #333;
+	display: inline-block;
+	padding-top: 10px;
+	width: 160px;
+
+
+}
+
+.tabtwo {
+	padding-left: 20px;
+	text-align: right;
+	font-size: 14px;
+	font-weight: normal;
+	color: #444;
+	display: inline-block;
+}
+
+.darkshade .tabtwo span {
+	color: #1A93cc;
+	display: inline-block;
+}
+
+/*columns under analytics*/
+
+.btmwrap {
+	width: 942px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.colone {
+	display: inline-block;
+	padding-right: 15px;
+	width: 100px;
+	font-size: 68px;
+	font-weight: normal;
+	color: #777;
+	padding-left: 40px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.colone span {
+	font-size: 14px;
+	font-weight: normal;
+	color: #777;
+}
+
+
+.coltwo {
+	display: inline-block;
+	padding-right: 15px;
+	width: 130px;
+	font-size: 68px;
+	font-weight: normal;
+	color: #777;
+	line-height: 28px;
+	text-align: center;
+
+}
+.coltwo span {
+	font-size: 14px;
+	font-weight: normal;
+	color: #777;
+}
+
+.views {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 20px;
+	width: 130px;
+	margin-top: -10px;
+
+
+	font-size: 26px;
+	font-weight: bold;
+	color: #777;
+	line-height: 20px;
+	text-align: left;
+
+}
+
+.views table {
+	border-collapse: collapse;
+	text-align: right;
+	font-size: 13px;
+	margin-left: 28px;
+	margin-top: 3px;
+
+}
+
+.views table .even {
+	font-weight: normal;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.mobnumbers {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 20px;
+	width: 150px;
+	margin-top: -10px;
+
+
+	font-size: 26px;
+	font-weight: bold;
+	color: #777;
+	line-height: 20px;
+	text-align: left;
+
+}
+
+.mobnumbers table {
+	border-collapse: collapse;
+	text-align: right;
+	font-size: 13px;
+	margin-left: 28px;
+	margin-top: 3px;
+
+}
+
+.mobnumbers table .even {
+	font-weight: normal;
+	text-align: left;
+	padding-left: 5px;
+
+}
+
+.reach {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 20px;
+	width: 130px;
+	margin-top: -10px;
+
+
+	font-size: 26px;
+	font-weight: bold;
+	color: #777;
+	line-height: 20px;
+	text-align: left;
+
+}
+
+.reach table {
+	border-collapse: collapse;
+	text-align: right;
+	font-size: 13px;
+	margin-left: 38px;
+	margin-top: 3px;
+
+}
+
+.reach table .even {
+	font-weight: normal;
+	text-align: left;
+}
+
+.time {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 20px;
+	width: 130px;
+	margin-top: -10px;
+
+
+	font-size: 26px;
+	font-weight: bold;
+	color: #777;
+	line-height: 20px;
+	text-align: left;
+
+}
+
+.time table {
+	border-collapse: collapse;
+	text-align: right;
+	font-size: 13px;
+	margin-left: 30px;
+	margin-top: 3px;
+}
+
+.time table .even {
+	font-weight: normal;
+	text-align: left;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
