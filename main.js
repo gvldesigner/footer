@@ -24,3 +24,30 @@ $(document).ready(function () {
 	})
 
 })
+
+
+$('.slider').change(function (){
+	console.log($(this).val())
+
+	var sliderValue = $(this).val()
+
+	$('h2').css('font-size', sliderValue / 2 + 'px');
+
+
+	//slider value above 40 or slider value less than 20
+	if (sliderValue > 40 || sliderValue < 20) {
+
+
+		$('h2').css('font-family', 'serif');
+
+	} else {
+		$('h2').css('font-family', 'sans-serif');
+	}
+
+})
+
+});
+
+
+
+
